@@ -182,10 +182,6 @@ const gameToJoin=ref("");
       
     </template>
     <template v-else>
-      <div>
-        <label>View game:</label>
-        <input type="text" name="gameId" v-model="game" />
-      </div>
       <button v-on:click="() => { startGame(); }">Start Game</button>
       <div>
         <select v-model="gameToJoin">
